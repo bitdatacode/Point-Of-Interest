@@ -1,0 +1,164 @@
+body{
+    
+    border-top:0;
+    /*background:#334346; */
+  
+}
+
+.barraMenu{
+    position: fixed; /* Flotante*/
+    z-index: 100;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.content-Destacados1{
+    background: beige;
+    margin: 15px;
+    
+}
+.content-Destacados1 .cab{
+    margin: 30px;
+    
+}
+
+
+.content-Destacados2{
+    background: beige;
+    margin: 15px;
+    
+}
+
+.content-Destacados2 .cab{
+    margin: 30px;
+    
+}
+
+
+
+.pie{
+    background: gray;
+    margin: 30px;
+}
+
+
+
+/* *************************************************** */
+                 /*******************/
+                /* Estilos de portada */
+                /*******************/
+/* *************************************************** */
+
+
+
+
+
+/* Estilos desplegable de login  */
+/**************************************/
+
+#login-dp{
+    min-width: 250px;
+    padding: 14px 14px 0;
+    overflow:hidden;
+    background-color:rgba(255,255,255,.8);
+}
+#login-dp .help-block{
+    font-size:12px    
+}
+#login-dp .bottom{
+    background-color:rgba(255,255,255,.8);
+    border-top:1px solid #ddd;
+    clear:both;
+    padding:14px;
+}
+#login-dp .social-buttons{
+    margin:12px 0    
+}
+#login-dp .social-buttons a{
+    width: 49%;
+}
+#login-dp .form-group {
+    margin-bottom: 10px;
+}
+.btn-fb{
+    color: #fff;
+    background-color:#3b5998;
+}
+.btn-fb:hover{
+    color: #fff;
+    background-color:#496ebc 
+}
+.btn-tw{
+    color: #fff;
+    background-color:#55acee;
+}
+.btn-tw:hover{
+    color: #fff;
+    background-color:#59b5fa;
+}
+@media(max-width:768px){
+    #login-dp{
+        background-color: inherit;
+        color: #fff;
+    }
+    #login-dp .bottom{
+        background-color: inherit;
+        border-top:0 none;
+    }
+}
+
+
+
+/* Estilos de cabecera de video  */
+/**************************************/
+
+.content-section .video-section{
+    max-height: 800px;
+    padding: 110px 0 32px;
+    }
+
+.video-section .pattern-overlay {
+background-color: rgba(71, 71, 71, 0.59);
+padding: 110px 0 32px;
+min-height: 496px;
+
+/* Incase of overlay problems just increase the min-height*/
+}
+.video-section h1, .video-section h3{
+text-align:center;
+color:#fff;
+}
+.video-section h1{
+font-size:110px;
+font-family: 'Buenard', serif;
+font-weight:bold;
+text-transform: uppercase;
+margin: 40px auto 0px;
+text-shadow: 1px 1px 1px #000;
+-webkit-text-shadow: 1px 1px 1px #000;
+-moz-text-shadow: 1px 1px 1px #000;
+}
+.video-section h3{
+font-size: 25px;
+font-weight:lighter;
+margin: 0px auto 15px;
+}
+.video-section .buttonBar{display:none;}
+.player {font-size: 1px;}
+
+
+
+
+
+
+/* *************************************************** */
+                 /*******************/
+                /* Estilos de Administración */
+                /*******************/
+/* *************************************************** */
+
+
+
+
+
